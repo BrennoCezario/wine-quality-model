@@ -25,7 +25,6 @@ Otimizador: Adam
 São duas planilhas, um de vinho branco e um de vinho vermelho.
 
 Segue as 5 primeiras linhas da planilha de vinho vermelho:
-![alt text](image.png)
 
    Acidez fixa  Acidez volátil  Ácido cítrico  Açúcar residual  Cloretos  ...  Densidade    pH  Sulfatos  Álcool  Qualidade
 0          7.4            0.70           0.00              1.9     0.076  ...     0.9978  3.51      0.56     9.4          5
@@ -50,8 +49,6 @@ Ao terminar de desenvolver o projeto, verificamos uma baixa acurácia e um dos f
 Utilizando a técnica de agrupamento (clustering) conseguimos aumentar consideravelmente a acurácia, indo de ≈60% à ≈80%.
 
 Testando o modelo com um vinho de teste com os atributos, o observamos como tendo qualidade 5 (Médio):
-
-![alt text](image-1.png)
 
  AF  AV  AC  AR    Clo    DEL   DET   Den  pH  Sulf  Alc
 6.3,0.45,0.1,1.2,0.03335,15.5,21.0,0.9946,3.39,0.47,10.0
